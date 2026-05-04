@@ -1,16 +1,82 @@
-# React + Vite
+# 🗂️ My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website portofolio pribadi yang dibangun dengan React, menampilkan informasi tentang pengalaman kerja, pendidikan, skills, dan project-project yang pernah dikerjakan.
 
-Currently, two official plugins are available:
+> 🚧 Project ini masih terus dikembangkan untuk penyempurnaan tampilan dan pengkodean yang scalable agar lebih mudah dikelola saat menambahkan project atau pengalaman baru. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-  **Intro Screen** — animasi pembuka saat pertama kali mengunjungi halaman
+-  **Floating Navigation** — navbar yang selalu terlihat saat scrolling
+-  **Multi-page** — halaman terpisah untuk Home, About, Skills, Experience, Education, dan Projects
+-  **Project Detail** — halaman detail untuk setiap project  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Teknologi | Keterangan |
+|---|---|
+| React 19 | UI library |
+| React Router v7 | Client-side routing |
+| Tailwind CSS v3 | Styling & utility classes |
+| Vite | Build tool & dev server |
+| ESLint | Linting |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) 18+
+- npm / yarn
+
+### Installation
+
+```bash
+
+# Install dependencies
+npm install
+```
+
+### Menjalankan di Local
+
+```bash
+npm run dev
+```
+
+Buka `http://localhost:5173` di browser.
+
+### Build untuk Production
+
+```bash
+npm run build
+```
+
+### Preview Build
+
+```bash
+npm run preview
+```
+---
+
+## 📚 Notes
+
+Project ini dibuat sebagai media pembelajaran dan pengembangan kemampuan frontend, khususnya dalam:
+- React component architecture
+- Routing dengan React Router
+- Responsive UI design
+- Styling menggunakan Tailwind CSS
+
+## 👨‍💻 Author
+
+**Aulia Nurul F** — [@aulianrfz](https://github.com/aulianrfz)
+
+---
+
+## 📄 License
+
+Private Project — All Rights Reserved.
